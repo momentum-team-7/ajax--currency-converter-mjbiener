@@ -49,7 +49,7 @@ function populateDropDownMenus() {
     let newOption1 = document.createElement("option");
     let newOption2 = document.createElement("option");
     newOption1.textContent = newOption2.textContent = currencies[i];
-
+        
     fromDropDown.appendChild(newOption1);
     toDropDown.appendChild(newOption2);
     fromDropDown.selectedIndex = currencies.indexOf("USD");
